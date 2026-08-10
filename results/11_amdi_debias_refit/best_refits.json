@@ -1,0 +1,20 @@
+{
+  "best_rmse": {
+    "operating_point": "best_rmse",
+    "refit_alpha_scale": 0.5,
+    "refit_alpha": 0.005,
+    "RMSE": 0.055072240532869646,
+    "PSNR": 25.181345090578464,
+    "SSIM": 0.7545274462333382,
+    "C_rel": 0.20166015625
+  },
+  "compressed": {
+    "operating_point": "compressed",
+    "refit_alpha_scale": 1.0,
+    "refit_alpha": 0.01,
+    "RMSE": 0.05346463303316099,
+    "PSNR": 25.438668194210866,
+    "SSIM": 0.852295973358516,
+    "C_rel": 0.088134765625
+  }
+}

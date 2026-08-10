@@ -1,0 +1,15 @@
+{
+  "best_baseline_RMSE_method": "TV",
+  "best_baseline_RMSE": 0.04064205215051873,
+  "best_baseline_SSIM_method": "TV",
+  "best_baseline_SSIM": 0.8768621161571843,
+  "best_AMDI_RMSE": 0.051336828290754664,
+  "best_AMDI_RMSE_C_rel": 0.20166015625,
+  "best_AMDI_SSIM": 0.8708919255057196,
+  "best_AMDI_SSIM_C_rel": 0.09326171875,
+  "AMDI_matches_or_beats_best_baseline_RMSE": false,
+  "AMDI_matches_or_beats_best_baseline_SSIM": false,
+  "compressed_AMDI_RMSE": 0.05311779009041298,
+  "compressed_AMDI_C_rel": 0.088134765625,
+  "compressed_AMDI_SSIM": 0.8532960205310701
+}

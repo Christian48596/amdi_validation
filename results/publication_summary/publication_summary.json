@@ -1,0 +1,532 @@
+{
+  "operator": {
+    "symmetry_error": 0.0,
+    "kernel_error": 6.944496966940148e-16,
+    "min_eigenvalue": -1.1614302718250601e-16,
+    "max_eigenvalue": 3.0811883598771357,
+    "spectral_gap": 0.010934946802893744
+  },
+  "refinement_consistency": [
+    {
+      "model": "state_dependent",
+      "coarse_level": "2",
+      "fine_level": "3",
+      "e_rc": "0.0062075510830929105"
+    },
+    {
+      "model": "state_dependent",
+      "coarse_level": "3",
+      "fine_level": "4",
+      "e_rc": "0.004742075861798693"
+    },
+    {
+      "model": "state_dependent",
+      "coarse_level": "4",
+      "fine_level": "5",
+      "e_rc": "0.0009430550253717854"
+    },
+    {
+      "model": "state_dependent",
+      "coarse_level": "5",
+      "fine_level": "6",
+      "e_rc": "0.00013856866379452859"
+    },
+    {
+      "model": "state_dependent",
+      "coarse_level": "6",
+      "fine_level": "7",
+      "e_rc": "1.769545277669588e-05"
+    },
+    {
+      "model": "linear",
+      "coarse_level": "2",
+      "fine_level": "3",
+      "e_rc": "0.0063489206971860885"
+    },
+    {
+      "model": "linear",
+      "coarse_level": "3",
+      "fine_level": "4",
+      "e_rc": "0.007971172575730143"
+    },
+    {
+      "model": "linear",
+      "coarse_level": "4",
+      "fine_level": "5",
+      "e_rc": "0.001094648096829899"
+    },
+    {
+      "model": "linear",
+      "coarse_level": "5",
+      "fine_level": "6",
+      "e_rc": "0.00014079796763736096"
+    },
+    {
+      "model": "linear",
+      "coarse_level": "6",
+      "fine_level": "7",
+      "e_rc": "1.7731702155602728e-05"
+    }
+  ],
+  "energy_history": [
+    {
+      "iteration": "0",
+      "energy": "0.006614556207206625",
+      "delta_E": "0.0",
+      "basis_size": "8",
+      "increment_term": "0.0",
+      "inequality_residual": "0.0"
+    },
+    {
+      "iteration": "1",
+      "energy": "0.006609190917499796",
+      "delta_E": "-5.36528970682907e-06",
+      "basis_size": "8",
+      "increment_term": "2.1652042494529073e-06",
+      "inequality_residual": "-3.200085457376496e-06"
+    },
+    {
+      "iteration": "2",
+      "energy": "0.006606734284027621",
+      "delta_E": "-2.4566334721745284e-06",
+      "basis_size": "8",
+      "increment_term": "9.914970881993147e-07",
+      "inequality_residual": "-1.465136383975267e-06"
+    },
+    {
+      "iteration": "3",
+      "energy": "0.006605609056050009",
+      "delta_E": "-1.1252279776118729e-06",
+      "basis_size": "8",
+      "increment_term": "4.5418862541773553e-07",
+      "inequality_residual": "-6.710393521940777e-07"
+    },
+    {
+      "iteration": "4",
+      "energy": "0.00660509347999476",
+      "delta_E": "-5.155760552490521e-07",
+      "basis_size": "8",
+      "increment_term": "2.0812905772622767e-07",
+      "inequality_residual": "-3.074469975229352e-07"
+    },
+    {
+      "iteration": "5",
+      "energy": "0.006604857161913225",
+      "delta_E": "-2.3631808153574962e-07",
+      "basis_size": "8",
+      "increment_term": "9.540710223983964e-08",
+      "inequality_residual": "-1.4091097929550683e-07"
+    },
+    {
+      "iteration": "6",
+      "energy": "0.006604748805798876",
+      "delta_E": "-1.0835611434847903e-07",
+      "basis_size": "8",
+      "increment_term": "4.375023387720848e-08",
+      "inequality_residual": "-6.460588047093457e-08"
+    },
+    {
+      "iteration": "7",
+      "energy": "0.006604699105156867",
+      "delta_E": "-4.9700642009049834e-08",
+      "basis_size": "8",
+      "increment_term": "2.0069240725706995e-08",
+      "inequality_residual": "-2.96314012831686e-08"
+    },
+    {
+      "iteration": "8",
+      "energy": "0.006604676300508388",
+      "delta_E": "-2.2804648479486656e-08",
+      "basis_size": "8",
+      "increment_term": "9.209442583646423e-09",
+      "inequality_residual": "-1.3595205895951257e-08"
+    }
+  ],
+  "synthetic_adaptivity": {
+    "RMSE": 0.05853721797579872,
+    "PSNR": 24.65135843150863,
+    "SSIM": 0.845782282315935,
+    "C_rel": 0.026611328125,
+    "basis_size": 436,
+    "n_leaves": 436,
+    "max_level_used": 6
+  },
+  "application_benchmark": {
+    "best_baseline_RMSE_method": "TV",
+    "best_baseline_RMSE": 0.04064205215051873,
+    "best_baseline_SSIM_method": "TV",
+    "best_baseline_SSIM": 0.8768621161571843,
+    "best_AMDI_RMSE": 0.051336828290754664,
+    "best_AMDI_RMSE_C_rel": 0.20166015625,
+    "best_AMDI_SSIM": 0.8708919255057196,
+    "best_AMDI_SSIM_C_rel": 0.09326171875,
+    "AMDI_matches_or_beats_best_baseline_RMSE": false,
+    "AMDI_matches_or_beats_best_baseline_SSIM": false,
+    "compressed_AMDI_RMSE": 0.05311779009041298,
+    "compressed_AMDI_C_rel": 0.088134765625,
+    "compressed_AMDI_SSIM": 0.8532960205310701
+  },
+  "vampyr_precision": {
+    "order": 5,
+    "max_depth": 8,
+    "reference_precision": 1e-05,
+    "reference_summary": {
+      "n_nodes": 489,
+      "n_end_nodes": 367,
+      "n_root_nodes": 1,
+      "depth": 6,
+      "root_scale": 0,
+      "norm": 0.5786930045361951
+    },
+    "error_definition": "L2 distance to a tighter VAMPyR projection on the same depth-capped MRA",
+    "target": "smooth multiscale 2D function (ramp + Gaussian + tanh edge + localized oscillation)",
+    "safety_note": "max_depth prevents pathological 2D node growth at very tight tolerances"
+  },
+  "debias_refit": {
+    "best_rmse": {
+      "operating_point": "best_rmse",
+      "refit_alpha_scale": 0.5,
+      "refit_alpha": 0.005,
+      "RMSE": 0.055072240532869646,
+      "PSNR": 25.181345090578464,
+      "SSIM": 0.7545274462333382,
+      "C_rel": 0.20166015625
+    },
+    "compressed": {
+      "operating_point": "compressed",
+      "refit_alpha_scale": 1.0,
+      "refit_alpha": 0.01,
+      "RMSE": 0.05346463303316099,
+      "PSNR": 25.438668194210866,
+      "SSIM": 0.852295973358516,
+      "C_rel": 0.088134765625
+    }
+  },
+  "robustness": {
+    "operating_point": "best_under_10pct_complexity",
+    "n_parameter_runs": 11,
+    "n_noise_realizations": 5,
+    "all_runs_energy_monotone": true,
+    "minimum_safeguard_accept_rate": 1.0,
+    "mean_safeguard_accept_rate": 1.0,
+    "parameter_RMSE_range": [
+      0.053105067564160675,
+      0.08474931504490034
+    ],
+    "parameter_SSIM_range": [
+      0.6491039626124474,
+      0.8539573971073046
+    ],
+    "parameter_C_rel_range": [
+      0.026611328125,
+      0.091064453125
+    ],
+    "noise_RMSE_mean": 0.05363151095708905,
+    "noise_RMSE_std": 0.0008678702516838866,
+    "noise_SSIM_mean": 0.852083957600291,
+    "noise_SSIM_std": 0.005032976372158203,
+    "noise_C_rel_mean": 0.086669921875,
+    "noise_C_rel_std": 0.0025371838001497227,
+    "fraction_stopped_before_max": 0.875,
+    "fraction_final_tolerances_met": 0.875
+  },
+  "holdout": {
+    "calibration_seed": 11,
+    "holdout_seeds": [
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137
+    ],
+    "best_mean_RMSE_method": "TV [RMSE-tuned]",
+    "best_mean_RMSE": 0.040311900847442225,
+    "best_mean_SSIM_method": "TV [SSIM-tuned]",
+    "best_mean_SSIM": 0.8790787557219448,
+    "protocol": "all method parameters frozen before holdout-noise evaluation"
+  },
+  "vampyr_localization": {
+    "n_nodes": 525,
+    "n_end_nodes": 394,
+    "n_root_nodes": 1,
+    "depth": 8,
+    "root_scale": 0,
+    "norm": 0.444218253757557
+  },
+  "matched_complexity_ablation": {
+    "operating_point": "best_under_10pct_complexity",
+    "noise_seeds": [
+      11,
+      17,
+      23,
+      31,
+      43
+    ],
+    "all_comparisons_matched_within_seed": true,
+    "all_runs_energy_monotone": true,
+    "interpretation": "Operator/coefficient ablations use the identical AMDI-selected tree within each noise realization; report what the data show rather than assuming every term improves RMSE/SSIM."
+  },
+  "standardized_initialization_protocol": {
+    "operating_point": "best_under_10pct_complexity",
+    "initialization_rule": "automatic Haar detail threshold chosen by bisection to meet a prescribed initial relative-complexity budget",
+    "uses_ground_truth_for_initialization": false,
+    "tested_initial_complexity_budgets": [
+      0.1,
+      0.12,
+      0.14
+    ],
+    "noise_seeds": [
+      11,
+      17,
+      23,
+      31,
+      43
+    ],
+    "recommended_default_budget_to_assess": 0.12,
+    "note": "The run determines whether replacing a raw coefficient threshold by C_rel^0 reduces scale-dependent initialization sensitivity; no robustness claim is hard-coded."
+  },
+  "vampyr_precision_audit": {
+    "n_precision_levels": 7,
+    "loose_precision": 0.01,
+    "tight_precision": 1e-05,
+    "complexity_nondecreasing_as_precision_tightens": true,
+    "L2_error_nonincreasing_as_precision_tightens": true,
+    "all_L2_errors_finite": true,
+    "any_projection_hit_depth_cap": false,
+    "end_node_growth_factor_loose_to_tight": 13.107142857142858,
+    "L2_error_reduction_factor_loose_to_tight": Infinity,
+    "empirical_log_error_vs_log_end_nodes_slope": -2.3346956262117518,
+    "publication_ready_monotone_precision_trend": true,
+    "interpretation_note": "A negative empirical slope indicates decreasing reference error as adaptive complexity increases. The slope is descriptive, not a proved convergence order.",
+    "metadata": {
+      "order": 5,
+      "max_depth": 8,
+      "reference_precision": 1e-05,
+      "reference_summary": {
+        "n_nodes": 489,
+        "n_end_nodes": 367,
+        "n_root_nodes": 1,
+        "depth": 6,
+        "root_scale": 0,
+        "norm": 0.5786930045361951
+      },
+      "error_definition": "L2 distance to a tighter VAMPyR projection on the same depth-capped MRA",
+      "target": "smooth multiscale 2D function (ramp + Gaussian + tanh edge + localized oscillation)",
+      "safety_note": "max_depth prevents pathological 2D node growth at very tight tolerances"
+    }
+  },
+  "vampyr_amdi_regional_localization": [
+    {
+      "region": "constant",
+      "haar_mean_level": "2.0",
+      "haar_max_level": "2",
+      "vampyr_mean_effective_level": "1.0",
+      "vampyr_max_effective_level": "1.0",
+      "vampyr_end_nodes": "1"
+    },
+    {
+      "region": "gradient",
+      "haar_mean_level": "4.0",
+      "haar_max_level": "4",
+      "vampyr_mean_effective_level": "1.0",
+      "vampyr_max_effective_level": "1.0",
+      "vampyr_end_nodes": "1"
+    },
+    {
+      "region": "edge",
+      "haar_mean_level": "3.515625",
+      "haar_max_level": "6",
+      "vampyr_mean_effective_level": "6.536585365853658",
+      "vampyr_max_effective_level": "7.0",
+      "vampyr_end_nodes": "328"
+    },
+    {
+      "region": "texture",
+      "haar_mean_level": "4.9375",
+      "haar_max_level": "5",
+      "vampyr_mean_effective_level": "4.0",
+      "vampyr_max_effective_level": "4.0",
+      "vampyr_end_nodes": "64"
+    }
+  ],
+  "matched_complexity_ablation_summary": [
+    {
+      "variant": "Adaptive AMDI reference",
+      "n_noise_realizations": "5",
+      "RMSE_mean": "0.053615026740167084",
+      "RMSE_std": "0.0008719982254660637",
+      "SSIM_mean": "0.8521966060324278",
+      "SSIM_std": "0.005062007086456777",
+      "C_rel_mean": "0.086669921875",
+      "C_rel_std": "0.0025371838001497227",
+      "max_within_seed_complexity_match_error": "0.0",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    },
+    {
+      "variant": "Fixed selected tree",
+      "n_noise_realizations": "5",
+      "RMSE_mean": "0.05360780031528162",
+      "RMSE_std": "0.0008710687371432812",
+      "SSIM_mean": "0.8522229880177493",
+      "SSIM_std": "0.005046858927267212",
+      "C_rel_mean": "0.086669921875",
+      "C_rel_std": "0.0025371838001497227",
+      "max_within_seed_complexity_match_error": "0.0",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    },
+    {
+      "variant": "No intrinsic diffusion",
+      "n_noise_realizations": "5",
+      "RMSE_mean": "0.053234778168163965",
+      "RMSE_std": "0.0008442340696869598",
+      "SSIM_mean": "0.85543433685706",
+      "SSIM_std": "0.005439608127727532",
+      "C_rel_mean": "0.086669921875",
+      "C_rel_std": "0.0025371838001497227",
+      "max_within_seed_complexity_match_error": "0.0",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    },
+    {
+      "variant": "State-independent weights",
+      "n_noise_realizations": "5",
+      "RMSE_mean": "0.06045685996165475",
+      "RMSE_std": "0.0012664925639468483",
+      "SSIM_mean": "0.8559424594180565",
+      "SSIM_std": "0.00495120212131087",
+      "C_rel_mean": "0.086669921875",
+      "C_rel_std": "0.0025371838001497227",
+      "max_within_seed_complexity_match_error": "0.0",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    }
+  ],
+  "standardized_initialization_summary": [
+    {
+      "target_initial_C_rel": "0.1",
+      "n_noise_realizations": "5",
+      "initial_C_rel_mean": "0.099853515625",
+      "initial_C_rel_std": "0.0",
+      "RMSE_mean": "0.059268989730447974",
+      "RMSE_std": "0.0010392634238162574",
+      "SSIM_mean": "0.8236725674753549",
+      "SSIM_std": "0.01028658177169206",
+      "final_C_rel_mean": "0.0765625",
+      "final_C_rel_std": "0.003372323564420314",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    },
+    {
+      "target_initial_C_rel": "0.12",
+      "n_noise_realizations": "5",
+      "initial_C_rel_mean": "0.11962890625",
+      "initial_C_rel_std": "0.0",
+      "RMSE_mean": "0.052834307448885696",
+      "RMSE_std": "0.0005130962159649299",
+      "SSIM_mean": "0.8602198632267392",
+      "SSIM_std": "0.005181591689201041",
+      "final_C_rel_mean": "0.08974609375",
+      "final_C_rel_std": "0.0025582396284042452",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    },
+    {
+      "target_initial_C_rel": "0.14",
+      "n_noise_realizations": "5",
+      "initial_C_rel_mean": "0.139404296875",
+      "initial_C_rel_std": "0.0",
+      "RMSE_mean": "0.05294839155992703",
+      "RMSE_std": "0.000685364931313551",
+      "SSIM_mean": "0.8528517983739674",
+      "SSIM_std": "0.007236226014611434",
+      "final_C_rel_mean": "0.091943359375",
+      "final_C_rel_std": "0.0022215455402494776",
+      "all_energy_monotone": "True",
+      "minimum_safeguard_accept_rate": "1.0"
+    }
+  ],
+  "vampyr_precision_rows_audited": [
+    {
+      "precision": "0.01",
+      "L2_distance_to_reference": "0.0007064284892015608",
+      "depth_hit_cap": "False",
+      "n_nodes": "37",
+      "n_end_nodes": "28",
+      "n_root_nodes": "1",
+      "depth": "4",
+      "root_scale": "0",
+      "norm": "0.5786926580362113"
+    },
+    {
+      "precision": "0.003",
+      "L2_distance_to_reference": "9.631273175822011e-05",
+      "depth_hit_cap": "False",
+      "n_nodes": "69",
+      "n_end_nodes": "52",
+      "n_root_nodes": "1",
+      "depth": "5",
+      "root_scale": "0",
+      "norm": "0.5786929477908455"
+    },
+    {
+      "precision": "0.001",
+      "L2_distance_to_reference": "7.457168989072015e-05",
+      "depth_hit_cap": "False",
+      "n_nodes": "117",
+      "n_end_nodes": "88",
+      "n_root_nodes": "1",
+      "depth": "5",
+      "root_scale": "0",
+      "norm": "0.5786929038306947"
+    },
+    {
+      "precision": "0.0003",
+      "L2_distance_to_reference": "7.228362766027323e-05",
+      "depth_hit_cap": "False",
+      "n_nodes": "153",
+      "n_end_nodes": "115",
+      "n_root_nodes": "1",
+      "depth": "6",
+      "root_scale": "0",
+      "norm": "0.5786929050198852"
+    },
+    {
+      "precision": "0.0001",
+      "L2_distance_to_reference": "5.704128692279351e-06",
+      "depth_hit_cap": "False",
+      "n_nodes": "293",
+      "n_end_nodes": "220",
+      "n_root_nodes": "1",
+      "depth": "6",
+      "root_scale": "0",
+      "norm": "0.5786930051564346"
+    },
+    {
+      "precision": "3e-05",
+      "L2_distance_to_reference": "1.5654731887060763e-06",
+      "depth_hit_cap": "False",
+      "n_nodes": "437",
+      "n_end_nodes": "328",
+      "n_root_nodes": "1",
+      "depth": "6",
+      "root_scale": "0",
+      "norm": "0.5786930050670512"
+    },
+    {
+      "precision": "1e-05",
+      "L2_distance_to_reference": "0.0",
+      "depth_hit_cap": "False",
+      "n_nodes": "489",
+      "n_end_nodes": "367",
+      "n_root_nodes": "1",
+      "depth": "6",
+      "root_scale": "0",
+      "norm": "0.5786930045361951"
+    }
+  ]
+}

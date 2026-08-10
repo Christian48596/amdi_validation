@@ -1,0 +1,13 @@
+{
+  "operating_point": "best_under_10pct_complexity",
+  "noise_seeds": [
+    11,
+    17,
+    23,
+    31,
+    43
+  ],
+  "all_comparisons_matched_within_seed": true,
+  "all_runs_energy_monotone": true,
+  "interpretation": "Operator/coefficient ablations use the identical AMDI-selected tree within each noise realization; report what the data show rather than assuming every term improves RMSE/SSIM."
+}

@@ -1,0 +1,5 @@
+region,mean_refinement_level,max_refinement_level
+constant,2.0,2
+gradient,4.0,4
+edge,3.515625,6
+texture,4.9375,5

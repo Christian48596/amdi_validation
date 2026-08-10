@@ -1,0 +1,10 @@
+{
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:29:05) [Clang 19.1.7 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "scikit_image": "0.26.0",
+  "vampyr_import": "ok",
+  "mrcpp_version": "1.6.0-alpha"
+}

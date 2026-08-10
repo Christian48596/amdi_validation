@@ -1,0 +1,30 @@
+{
+  "n_precision_levels": 7,
+  "loose_precision": 0.01,
+  "tight_precision": 1e-05,
+  "complexity_nondecreasing_as_precision_tightens": true,
+  "L2_error_nonincreasing_as_precision_tightens": true,
+  "all_L2_errors_finite": true,
+  "any_projection_hit_depth_cap": false,
+  "end_node_growth_factor_loose_to_tight": 13.107142857142858,
+  "L2_error_reduction_factor_loose_to_tight": Infinity,
+  "empirical_log_error_vs_log_end_nodes_slope": -2.3346956262117518,
+  "publication_ready_monotone_precision_trend": true,
+  "interpretation_note": "A negative empirical slope indicates decreasing reference error as adaptive complexity increases. The slope is descriptive, not a proved convergence order.",
+  "metadata": {
+    "order": 5,
+    "max_depth": 8,
+    "reference_precision": 1e-05,
+    "reference_summary": {
+      "n_nodes": 489,
+      "n_end_nodes": 367,
+      "n_root_nodes": 1,
+      "depth": 6,
+      "root_scale": 0,
+      "norm": 0.5786930045361951
+    },
+    "error_definition": "L2 distance to a tighter VAMPyR projection on the same depth-capped MRA",
+    "target": "smooth multiscale 2D function (ramp + Gaussian + tanh edge + localized oscillation)",
+    "safety_note": "max_depth prevents pathological 2D node growth at very tight tolerances"
+  }
+}

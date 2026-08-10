@@ -1,0 +1,26 @@
+section,metric,value
+operator,symmetry_error,0.0
+operator,kernel_error,6.944496966940148e-16
+operator,min_eigenvalue,-1.1614302718250601e-16
+operator,spectral_gap,0.010934946802893744
+refinement,first_row,"{'model': 'state_dependent', 'coarse_level': '2', 'fine_level': '3', 'e_rc': '0.0062075510830929105'}"
+refinement,last_row,"{'model': 'linear', 'coarse_level': '6', 'fine_level': '7', 'e_rc': '1.7731702155602728e-05'}"
+energy,max_inequality_residual,0.0
+adaptivity,RMSE,0.05853721797579872
+adaptivity,PSNR,24.65135843150863
+adaptivity,SSIM,0.845782282315935
+adaptivity,C_rel,0.026611328125
+adaptivity,basis_size,436
+robustness,all_runs_energy_monotone,True
+robustness,mean_safeguard_accept_rate,1.0
+robustness,noise_RMSE_mean,0.05363151095708905
+robustness,noise_RMSE_std,0.0008678702516838866
+robustness,noise_SSIM_mean,0.852083957600291
+robustness,noise_SSIM_std,0.005032976372158203
+robustness,noise_C_rel_mean,0.086669921875
+robustness,noise_C_rel_std,0.0025371838001497227
+vampyr_precision,complexity_nondecreasing_as_precision_tightens,True
+vampyr_precision,L2_error_nonincreasing_as_precision_tightens,True
+vampyr_precision,any_projection_hit_depth_cap,False
+vampyr_precision,empirical_log_error_vs_log_end_nodes_slope,-2.3346956262117518
+vampyr_precision,publication_ready_monotone_precision_trend,True

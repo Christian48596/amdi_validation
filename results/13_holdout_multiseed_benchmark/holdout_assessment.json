@@ -1,0 +1,18 @@
+{
+  "calibration_seed": 11,
+  "holdout_seeds": [
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137
+  ],
+  "best_mean_RMSE_method": "TV [RMSE-tuned]",
+  "best_mean_RMSE": 0.040311900847442225,
+  "best_mean_SSIM_method": "TV [SSIM-tuned]",
+  "best_mean_SSIM": 0.8790787557219448,
+  "protocol": "all method parameters frozen before holdout-noise evaluation"
+}

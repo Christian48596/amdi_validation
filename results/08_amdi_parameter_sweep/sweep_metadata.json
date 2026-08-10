@@ -1,0 +1,10 @@
+{
+  "image": "synthetic",
+  "n": 64,
+  "noise_sigma": 0.08,
+  "noise_seed": 11,
+  "sampling_seed": 20260809,
+  "budget": 192,
+  "outer_iterations": 6,
+  "parameter_selection": "deterministic random subset of a declared Cartesian grid plus the original anchor setting"
+}

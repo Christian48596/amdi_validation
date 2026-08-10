@@ -1,0 +1,5 @@
+region,haar_mean_level,haar_max_level,vampyr_mean_effective_level,vampyr_max_effective_level,vampyr_end_nodes
+constant,2.0,2,1.0,1.0,1
+gradient,4.0,4,1.0,1.0,1
+edge,3.515625,6,6.536585365853658,7.0,328
+texture,4.9375,5,4.0,4.0,64

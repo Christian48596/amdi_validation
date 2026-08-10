@@ -1,0 +1,28 @@
+{
+  "operating_point": "best_under_10pct_complexity",
+  "n_parameter_runs": 11,
+  "n_noise_realizations": 5,
+  "all_runs_energy_monotone": true,
+  "minimum_safeguard_accept_rate": 1.0,
+  "mean_safeguard_accept_rate": 1.0,
+  "parameter_RMSE_range": [
+    0.053105067564160675,
+    0.08474931504490034
+  ],
+  "parameter_SSIM_range": [
+    0.6491039626124474,
+    0.8539573971073046
+  ],
+  "parameter_C_rel_range": [
+    0.026611328125,
+    0.091064453125
+  ],
+  "noise_RMSE_mean": 0.05363151095708905,
+  "noise_RMSE_std": 0.0008678702516838866,
+  "noise_SSIM_mean": 0.852083957600291,
+  "noise_SSIM_std": 0.005032976372158203,
+  "noise_C_rel_mean": 0.086669921875,
+  "noise_C_rel_std": 0.0025371838001497227,
+  "fraction_stopped_before_max": 0.875,
+  "fraction_final_tolerances_met": 0.875
+}

@@ -1,0 +1,19 @@
+{
+  "operating_point": "best_under_10pct_complexity",
+  "initialization_rule": "automatic Haar detail threshold chosen by bisection to meet a prescribed initial relative-complexity budget",
+  "uses_ground_truth_for_initialization": false,
+  "tested_initial_complexity_budgets": [
+    0.1,
+    0.12,
+    0.14
+  ],
+  "noise_seeds": [
+    11,
+    17,
+    23,
+    31,
+    43
+  ],
+  "recommended_default_budget_to_assess": 0.12,
+  "note": "The run determines whether replacing a raw coefficient threshold by C_rel^0 reduces scale-dependent initialization sensitivity; no robustness claim is hard-coded."
+}

@@ -1,0 +1,16 @@
+{
+  "order": 5,
+  "max_depth": 8,
+  "reference_precision": 1e-05,
+  "reference_summary": {
+    "n_nodes": 489,
+    "n_end_nodes": 367,
+    "n_root_nodes": 1,
+    "depth": 6,
+    "root_scale": 0,
+    "norm": 0.5786930045361951
+  },
+  "error_definition": "L2 distance to a tighter VAMPyR projection on the same depth-capped MRA",
+  "target": "smooth multiscale 2D function (ramp + Gaussian + tanh edge + localized oscillation)",
+  "safety_note": "max_depth prevents pathological 2D node growth at very tight tolerances"
+}
